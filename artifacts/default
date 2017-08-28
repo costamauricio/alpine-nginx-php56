@@ -3,7 +3,7 @@ server {
 
     # this path MUST be exactly as docker-compose.fpm.volumes,
     # even if it doesn't exists in this dock.
-    root /usr/share/nginx/html;
+    root /usr/share/nginx/html/;
     index index.php index.html index.html;
 
     server_name 127.0.0.1;
